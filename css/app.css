@@ -49,3 +49,25 @@ div {
 #btn {
   padding: 10px 20px;
 }
+h1 {
+  background-color: mediumseagreen;
+  display: inline;
+  border: 2px solid black;
+}
+span {
+  background-color: gold;
+  border: 2px solid black;
+}
+#spn {
+  background-color: aqua;
+  margin: 15px;
+  padding: 15px;
+  width: 250px;
+}
+.test {
+  height: 250px;
+  width: 250px;
+  background-color: olive;
+  border: 4px solid black;
+  display: inline-block;
+}
