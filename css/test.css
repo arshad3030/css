@@ -1,0 +1,36 @@
+.container {
+  border: 4px solid black;
+  margin: auto;
+  height: 200px;
+  width: 400px;
+  border-radius: 5%;
+  padding: 10px 15px;
+}
+.container div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  margin: 5px 5px;
+  display: inline-block;
+}
+.container :nth-child(2) {
+  background-color: #a7c957;
+}
+.one {
+  background-color: bisque;
+}
+.onee {
+  background-color: rgb(196, 228, 255);
+}
+/* #two {
+  position: absolute;
+  left: 30%;
+  top: 6px;
+
+  background-color: #a7c957;
+}
+#three {
+  position: absolute;
+  left: 60%;
+  top: 6px;
+} */

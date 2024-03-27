@@ -1,0 +1,61 @@
+#container {
+  border: 1px solid black;
+  height: 800px;
+  width: 1000px;
+  margin: auto;
+  background-color: #a0a083;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  /* align-items: flex-start; */
+  /* align-content: space-between; */
+}
+
+#container div {
+  height: 200px;
+  width: 200px;
+  flex-grow: 1;
+  /* flex-basis: 100px; */
+}
+/* div:nth-of-type(3) {
+  align-self: flex-end;
+} */
+
+/* div:nth-of-type(4) {
+  flex-grow: 1;
+}
+
+div:nth-of-type(1) {
+  flex-shrink: 0;
+} */
+
+/* justify-content --> for our main axis end , or :start
+align-itmes --> for our cross axis whether end or start */
+
+/* in this scenario our main axis is left to right(row direction), but our cross axis is bottom to top (wrap-reverse). Hence thhe flex itmes start from left bottom
+#container {
+    border: 1px solid black;
+    height: 800px;
+    width: 600px;
+    margin: auto;
+    background-color: #a0a083;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+  } */
+
+/* contents - start from left to right(justify content is start ), and start from top ( reverse(cross will start from bottom to top), but align given as end hence from top(which is our bottom ) to down)
+  #container {
+    border: 1px solid black;
+    height: 800px;
+    width: 600px;
+    margin: auto;
+    background-color: #a0a083;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+  } */
